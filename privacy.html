@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Datenschutzerklärung – Asplenie</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1c1c1e;
+    --muted: #6b6b70;
+    --accent: #0a84ff;
+    --card: #f5f5f7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1c1c1e; --fg: #f2f2f7; --muted: #8e8e93; --card: #2c2c2e; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.55;
+    background: var(--bg);
+    color: var(--fg);
+    padding: 2rem 1rem 4rem;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  h1 { font-size: 1.8rem; margin-bottom: 0.2rem; }
+  h2 { font-size: 1.2rem; margin-top: 2rem; }
+  .subtitle { color: var(--muted); margin-bottom: 2rem; }
+  .card {
+    background: var(--card);
+    padding: 1rem 1.2rem;
+    border-radius: 12px;
+    margin: 1rem 0;
+  }
+  ul { padding-left: 1.2rem; }
+  a { color: var(--accent); }
+  footer { color: var(--muted); font-size: 0.85rem; margin-top: 3rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Datenschutzerklärung</h1>
+  <p class="subtitle">App „Asplenie" für iOS, watchOS und iPadOS</p>
+
+  <div class="card">
+    <strong>Kurzfassung:</strong> Diese App verarbeitet deine Gesundheitsdaten <em>ausschließlich lokal auf deinem iPhone bzw. deiner Apple Watch</em>. Es findet <em>keine Übertragung an Server</em>, <em>keine Cloud-Synchronisation</em>, <em>kein Tracking</em> und <em>keine Weitergabe</em> an Dritte statt.
+  </div>
+
+  <h2>1. Verantwortlicher</h2>
+  <p>
+    Andreas Wittemann<br>
+    Kontakt für Datenschutzanfragen: <a href="mailto:jacqueline.wittemann@web.de">jacqueline.wittemann@web.de</a>
+  </p>
+
+  <h2>2. Welche Daten verarbeitet die App?</h2>
+  <p>Asplenie liest mit deiner ausdrücklichen Einwilligung folgende Daten aus Apple Health:</p>
+  <ul>
+    <li>Körpertemperatur</li>
+    <li>Ruhepuls und aktuelle Herzfrequenz</li>
+    <li>Herzfrequenzvariabilität (HRV)</li>
+    <li>Atemfrequenz</li>
+    <li>Sauerstoffsättigung (SpO₂)</li>
+    <li>Blutdruck (falls von dir eingetragen)</li>
+    <li>Schlafdaten</li>
+    <li>Schritte und Aktivität</li>
+  </ul>
+  <p>Zusätzlich speichert die App lokal:</p>
+  <ul>
+    <li>Deine Eingaben im digitalen Notfallpass (z. B. Blutgruppe, Allergien, Notfallkontakte, Impfungen, Medikation).</li>
+    <li>Deine Einträge im Symptomtagebuch.</li>
+    <li>Persönliche Einstellungen (z. B. Sprache, Onboarding-Status).</li>
+  </ul>
+
+  <h2>3. Wozu werden die Daten verarbeitet?</h2>
+  <p>
+    Die Werte werden auf deinem Gerät ausgewertet, um dich frühzeitig auf mögliche Anzeichen einer Infektion hinzuweisen, die für Menschen mit (funktioneller) Asplenie besonders relevant sein können. Die App stellt <strong>keine Diagnose</strong> und ist <strong>kein Medizinprodukt</strong>. Sie unterstützt dich lediglich darin, fundierte Gespräche mit deiner Ärztin oder deinem Arzt zu führen.
+  </p>
+
+  <h2>4. Rechtsgrundlage</h2>
+  <p>
+    Die Verarbeitung deiner Gesundheitsdaten erfolgt ausschließlich auf Grundlage deiner ausdrücklichen Einwilligung gemäß Art. 6 Abs. 1 lit. a und Art. 9 Abs. 2 lit. a DSGVO. Diese Einwilligung erteilst du, indem du der App den HealthKit-Zugriff erlaubst. Du kannst sie jederzeit in den iOS-Einstellungen unter „Datenschutz &amp; Sicherheit → Health → Asplenie" widerrufen.
+  </p>
+
+  <h2>5. Wo werden die Daten gespeichert?</h2>
+  <ul>
+    <li>HealthKit-Werte bleiben in Apple Health auf deinem Gerät — Apple garantiert per Plattform-Richtlinie, dass HealthKit-Daten nicht in iCloud-Backups landen, sofern du dies nicht selbst aktivierst.</li>
+    <li>Notfallpass-Daten, Symptome und Einstellungen werden ausschließlich lokal in einer Datenbank auf deinem Gerät (SwiftData) sowie im geteilten App-Group-Container für Widget und Apple Watch gespeichert.</li>
+    <li>Es gibt <strong>keinen Server der App</strong>. Es findet <strong>keine Übertragung</strong> an Anbieter, Cloud-Dienste, Analyse- oder Werbeplattformen statt.</li>
+  </ul>
+
+  <h2>6. Empfänger / Weitergabe</h2>
+  <p>
+    Daten werden ausschließlich an Stellen weitergegeben, die <em>du selbst</em> aktiv auswählst — zum Beispiel, wenn du den in der App erstellten Arztbericht als PDF teilst oder ausdruckst. Eine automatische Weitergabe findet nicht statt.
+  </p>
+
+  <h2>7. Speicherdauer</h2>
+  <p>
+    Die Daten bleiben gespeichert, solange die App auf deinem Gerät installiert ist und du sie nicht selbst löschst. Beim Deinstallieren der App werden die App-Daten von iOS automatisch entfernt; die HealthKit-Werte selbst verbleiben in Apple Health.
+  </p>
+
+  <h2>8. Kein Tracking, keine Analytics</h2>
+  <p>
+    Die App enthält weder Tracking-SDKs, noch Analytics-Tools, noch Werbenetzwerke. Es werden keine Geräte-Identifier zu Marketing-Zwecken erfasst.
+  </p>
+
+  <h2>9. Deine Rechte</h2>
+  <p>Dir stehen jederzeit folgende Rechte zu (Art. 15–21 DSGVO):</p>
+  <ul>
+    <li>Auskunft über deine verarbeiteten Daten</li>
+    <li>Berichtigung unrichtiger Daten</li>
+    <li>Löschung deiner Daten</li>
+    <li>Einschränkung der Verarbeitung</li>
+    <li>Widerruf deiner Einwilligung mit Wirkung für die Zukunft</li>
+    <li>Beschwerde bei einer Datenschutz-Aufsichtsbehörde (in Deutschland z. B. die jeweilige Landesdatenschutzbehörde)</li>
+  </ul>
+  <p>
+    Da alle Daten lokal auf deinem Gerät liegen, kannst du Löschung und Auskunft direkt in der App und in den iOS-Einstellungen ausüben (App deinstallieren, Einträge entfernen, HealthKit-Berechtigung entziehen).
+  </p>
+
+  <h2>10. TestFlight-Hinweis</h2>
+  <p>
+    Während der TestFlight-Phase werden zusätzlich technische Informationen wie Absturzberichte über Apples TestFlight-Plattform verarbeitet. Dies geschieht durch Apple Inc. nach deren Datenschutzrichtlinien (siehe <a href="https://www.apple.com/de/legal/privacy/" target="_blank" rel="noopener">apple.com/de/legal/privacy</a>). Die App selbst sendet keine Telemetrie.
+  </p>
+
+  <h2>11. Änderungen dieser Erklärung</h2>
+  <p>
+    Diese Datenschutzerklärung kann angepasst werden, wenn sich der Funktionsumfang oder die rechtlichen Anforderungen ändern. Die jeweils aktuelle Version ist unter dieser URL abrufbar.
+  </p>
+
+  <footer>
+    Stand: 24. Mai 2026
+  </footer>
+</main>
+</body>
+</html>
